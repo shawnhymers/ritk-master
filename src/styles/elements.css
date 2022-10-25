@@ -1,0 +1,99 @@
+
+.home-image{
+  width:100vw;
+  margin-top:10vh;
+}
+.home-header{
+  min-height: 10vh;
+}
+.section-break{
+  width:100vw;
+  margin: none;
+}
+.page-segment{
+  min-height: 100vh;
+}
+.dropdown-item{
+  min-width:25vw;
+  overflow-x: hidden;
+
+
+}
+
+.dropdown-text{
+  font-size: calc((1.2 - 1) * 0.6vw + 0.7rem);
+  margin: auto;
+}
+.dropdown-item:hover{
+  background-color: #91A98F;
+}
+.help-message{
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 6;
+}
+
+/* Tooltip container */
+.help-message-container {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+
+.positive-message{
+  background-color: #91A98F;
+}
+.negative-message{
+  background-color: red;
+}
+.outcome-message-container-desktop{
+  position: fixed;
+  top: 5vh;
+  height:10vh;
+  width:40vw;
+  left: 30vw;
+  right: 30vw;
+  z-index: 100;
+  border-radius:5px;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+  opacity: 0.9;
+
+}
+.outcome-message-container-mobile{
+  position: absolute;
+  position: fixed;
+  top: 5vh;
+  width:80vw;
+  left: 10vw;
+  right: 10vw;
+  border-radius:5px;
+  z-index: 100;
+  opacity: 0.9;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+
+}
+
+
+.mobile-nav-col{
+  max-width: 20%;
+}
+
+
+.btn-custom {
+  background-color: #BED3C7;
+}
+.btn-custom:hover{
+  background-color: #91A98F;
+}
+
+.blog-container{
+
+}
